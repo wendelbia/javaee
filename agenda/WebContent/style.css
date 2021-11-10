@@ -1,0 +1,74 @@
+@CHARSET "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+	//especifica o tamanho da font
+	font-size: 1em;
+	font-weight:400;
+}
+
+h1 {
+	color: #66bbff;
+}
+
+.Botao1 {
+	text-decoration: none;
+	background-color: #66bbff;
+	padding: 5px 10px 5px 10px;
+	colo: #fff;
+	/*quando coloco 1.2 é aumentado 20% o tamanho da fonte*/
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+	/*remove a sombra do botão*/
+	border: 0;
+	/*transforma o ponteiro em mão*/
+	cursor:pointer;
+}
+.Botao2 {
+	text-decoration:none;
+	background-color: #d512113;
+	padding: 5px 10px 5px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 700;
+	border-radius: 5px;
+}
+/*caixa de dialogo*/
+.Caixa1 {
+	width: 320px;
+	padding: 5px;
+	marging-bottom: 10px;
+	boder: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+.Caixa2 {
+	padding: 5px;
+	marging-bottom: 10px;
+	boder: 1px solid #66bbff;
+	border-radius: 5px;
+}
+
+#caixa3 {
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ff0000;
+}
+
+#tabela {
+	margin-top:30px;
+	border-collapse: collapse;
+}
+.tabela th {
+	border:1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: #66bbff;
+	color: #fff;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}

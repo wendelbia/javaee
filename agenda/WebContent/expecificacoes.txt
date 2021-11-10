@@ -1,0 +1,28 @@
+crio uma folha de estilo, vou no google fonts seleciono a font clico em importar, voi na folha de estilo
+e posto no cabeçalho dela o importe copiado e abro o body{ e copio a especificação
+
+no arquivo web.xml ele determina ao servidor procurar em primeiro lugar o aquivo index.html
+caso não encontre ele procurará nos outros aquivos 
+
+Depois de ter criado o delete vamos criar relatórios em PDF com biblioteca itextpdf
+https://github.com/itext/itextpdf/releases/tag/5.5.13.2 baixo a última versão dessa biblioteca
+uso dela o arquivo jar portanto vou no eclipse na pasta lib na qual armazeno as biblioteca externa e arrasto para 
+dentro dessa pasta lib próximo passo crio o botão relatório no doc. agenda.jps
+
+aula 16 parte 1/2
+documentação (banco de dados, código fonte)
+Abro mysql workbench
+escolho na aba adminstration->data export -> seleciono dbagenda -> escolho um dump da estrutura, da tabela e estrutura e tabela
+escolho apenas da estrutura em lá em cima seleciono a perspectiva do meio que escondo o rodapé de saída ou rola para baixo
+e cliclo no botão start export, dump finalizado com sucesso... ele é salvo na pasta documentos\dump\Dump...
+o workbench criou a pasta com o documento do banco de dados, vou criar o diagrama:
+seleciono database -> engenharia reversa -> escolho o banco dbagenda -> next -> next -> no menu escolho file e exportar 
+no formato pdf
+
+Documentação dos arquivos java:
+
+Apago os comentários e os testes, 
+
+aula 16 2/2
+vou em help -> eclipse marketplace ->pesquiso jautodoc
+
